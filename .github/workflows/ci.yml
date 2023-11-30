@@ -120,7 +120,7 @@ jobs:
         with:
           submodules: true
       - name: Install PHP ${{ matrix.php }}
-        uses: RikoDEV/setup-php-sdk@v0.8
+        uses: RikoDEV/setup-php-sdk@v0.9
         id: setup-php-sdk
         with:
           version: ${{ matrix.php }}

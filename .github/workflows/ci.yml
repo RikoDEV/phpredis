@@ -120,7 +120,7 @@ jobs:
         with:
           submodules: true
       - name: Install PHP ${{ matrix.php }}
-        uses: cmb69/setup-php-sdk@v0.6
+        uses: cmb69/setup-php-sdk@v0.7
         id: setup-php-sdk
         with:
           version: ${{ matrix.php }}
